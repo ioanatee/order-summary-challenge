@@ -44,14 +44,6 @@ p {
   border-radius:7%;
 }
 
-/* Mobile design */
-@media screen and (max-width: 480px) {
-    .card {
-        width: 350px;
-    }
-
-
-
 .card-img {
   border-top-right-radius: 7%;
   border-top-left-radius: 7%;
@@ -114,4 +106,15 @@ box-shadow :0px 15px 2px 8px hsl(225, 100%, 98%);
 
 .attribution {
   margin-top:5%;
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: 350px;
+    }
+
+    .card-body {
+        width: 350px;
+    }
+  
 }
