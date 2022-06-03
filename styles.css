@@ -45,11 +45,11 @@ p {
 }
 
 /* Mobile design */
-@media (max-width: 600px) {
-  .card {
-    width:90%;
-  }
-}
+@media screen and (max-width: 480px) {
+    .card {
+        width: 350px;
+    }
+
 
 
 .card-img {
