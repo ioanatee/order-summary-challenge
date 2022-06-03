@@ -36,7 +36,8 @@ p {
 
 }
 .card {
-  width: 30%;
+   width: 400px;
+  height: 600px;
   margin: auto;
   margin-top: 5%;
   display:flex;
